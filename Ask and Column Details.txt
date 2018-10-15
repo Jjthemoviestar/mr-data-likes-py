@@ -1,0 +1,24 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Oct  3 14:04:51 2018
+
+@author: joshcole
+"""
+
+1) AskUrban - Who is applying for urban areas? (Salary, Gender, Education, Married)
+    AskUrban - When Property_Area = Urban, show Gender PCT, Salary Avg, Education PCT
+    Columns - Property_Area, Gender, ApplicantIncome, CoapplicantIncome, Education
+    
+2) AskTotalIncome - What is the loan amount and the total household income of rejected loans?
+    AskTotalIncome - When Loan_Status = N, what is ratio of total income / loan amount
+    Columns - ApplicantIncome, CoapplicantIncome, Loan_Status
+    
+3) AskCreditLoans - How many loans were approved without credit history data?
+    AskCreditLoans - Count of Loan_Status = Y, when Credit_History = 0 or Blank
+    Columns - Credit_History, Loan_Status
+
+        
+                
+                
+                
+                

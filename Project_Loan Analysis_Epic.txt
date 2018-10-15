@@ -1,0 +1,53 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Oct  3 10:39:42 2018
+
+@author: joshcole
+"""
+
+Behavior:
+    This project will deliver an online interface that will display 
+    data analysis on the Train Loan Data.
+    
+    FEATURE 1_Data Analysis
+       AskUrban - Who is applying for urban areas? (Salary, Gender, Education, Married)
+       AskTotalIncome - What is the loan amount and the total household income 
+        of rejected loans?
+       AskCreditLoans - How many loans were approved without credit history data?
+        
+        https://trello.com/b/kUeQzAQ5/mr-data-eats-py
+        
+            STORIES
+                Import Train.Loan data.csv
+                Identify Columns for each ask, and rename asks.
+                AskUrban - When Property_Area = Urban, show Gender PCT, Salary Avg, Education PCT
+                AskTotalIncome - When Loan_Status = N, what is ratio of total income / loan amount
+                AskCreditLoans - Count of Loan_Status = Y, when Credit_History = 0 or Blank
+            
+    FEATURE 2_Online Interface
+        A website that display the data python analysis
+    
+    FEATURE 3_Connection
+        From drop location to Python analytics
+        The website will load the data
+    
+    FEATURE 4_Advance Anaylsis (Stretch)
+        regression analysis
+            Hypothesis=males are more likely to be approved for a loan
+                        because they make a higher income.
+            Hypothesis=familes with more kids apply for homes that cost more.
+        
+    FEATURE 5_Auto Refresh (stretch)
+        As new data arrives in the drop location the website is updated.
+    
+    FEATURE 6_Report Selection (stretch)
+        Users can select different reports
+        
+    FEATURE 7_Real-time Status (stretch)
+        Users can enter data online and receive a real-time status.
+        
+    FEATURE 8_Instant Reporting (stretch)
+        Information is collected on the users applying for loans through 
+        the webinterface. 
+    
+    
