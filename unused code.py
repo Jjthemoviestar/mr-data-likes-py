@@ -23,3 +23,7 @@ plt.show()
 
 
 f1.loan_data.dtypes
+
+
+prop_urb[inc.plot(kind='bar')] #This works, but it's too messy
+prop_urb[ATInc.inc_ln_ratio.plot(kind='pie')] #This works, but it's too messy
