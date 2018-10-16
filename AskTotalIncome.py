@@ -38,6 +38,8 @@ plt.show()
 
 f1.loan_data['Income to Loan Ratio'] = totinc/(lnamt*1000) 
 f1.loan_data[:5]
+    
+print (f1.loan_data)
 
 """
 some of the data needs to be scrubbed, there are loans approved with no loan amount
