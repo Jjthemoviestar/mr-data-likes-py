@@ -56,7 +56,7 @@ print (inc_data)
 #I can't seem to filter the total income by just urban
 #I also can't seem to get the average of total income for urban
 #after I figure that out then I can try to get the loan amount
-#then they both need to go into a bar chart
+#then they both need to go into a bar chart.
 
 df_filtered = f1.loan_data[(f1.loan_data.Property_Area == 'Urban')]
 print(df_filtered)
